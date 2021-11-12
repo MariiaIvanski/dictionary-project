@@ -14,8 +14,23 @@ export default function App() {
         </main>
         <footer className="App-footer">
           <small>
-            This project was coded by Mariia Ivanski, and it is open-sourced on
-            GitHub
+            {" "}
+            This project was coded by{" "}
+            <a
+              href="https://inspiring-noyce-9d41a5.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Mariia Ivanski
+            </a>{" "}
+            and is{" "}
+            <a
+              href="https://github.com/MariiaIvanski/react-weather-project"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              open-sourced on GitHub
+            </a>
           </small>
         </footer>
       </div>
