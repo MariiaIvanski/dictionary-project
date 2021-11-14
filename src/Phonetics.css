@@ -1,0 +1,27 @@
+.Phonetics {
+  margin: 20px 0;
+}
+
+.Phonetics a {
+  color: #b68973;
+  border: 1px solid #eabf9f;
+  text-decoration: none;
+  padding: 10px 12px;
+  margin-right: 10px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+.Phonetics i {
+  font-size: 16px;
+}
+
+.Phonetics a:hover {
+  background: #b68973;
+  color: white;
+}
+
+.Phonetics .transcription {
+  opacity: 0.7;
+  font-weight: bold;
+}
