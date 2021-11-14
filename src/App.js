@@ -11,7 +11,7 @@ export default function App() {
         </header>
         <h1>Dictionary</h1>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="steam" />
         </main>
 
         <footer className="App-footer">
@@ -35,7 +35,7 @@ export default function App() {
             </a>
           </small>
         </footer>
-        <img src={logo} className="App-logo img-fluid" alt="logo" />
+        <img src={logo} className="App-logo img-fluid mb-5" alt="logo" />
       </div>
     </div>
   );
