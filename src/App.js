@@ -9,9 +9,11 @@ export default function App() {
         <header className="App-header">
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
+        <h1>Dictionary</h1>
         <main>
           <Dictionary />
         </main>
+
         <footer className="App-footer">
           <small>
             {" "}
@@ -33,6 +35,7 @@ export default function App() {
             </a>
           </small>
         </footer>
+        <img src={logo} className="App-logo img-fluid" alt="logo" />
       </div>
     </div>
   );
