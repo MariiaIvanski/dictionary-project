@@ -12,13 +12,13 @@
   transition: all 150ms ease-in-out;
 }
 
-.Phonetics i {
-  font-size: 16px;
-}
-
 .Phonetics a:hover {
   background: #b68973;
   color: white;
+}
+
+.Phonetics i {
+  font-size: 16px;
 }
 
 .Phonetics .transcription {

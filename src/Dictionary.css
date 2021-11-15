@@ -1,11 +1,10 @@
 .Dictionary {
-  text-align: center;
   background-color: rgb(250, 243, 224);
   padding: 20px;
   border-radius: 15px;
 }
 
-.Dictionary h1 {
+.Dictionary h2 {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -19,12 +18,22 @@
   margin: 20px 0;
 }
 
+.Dictionary form {
+  display: flex;
+}
+
 .Dictionary input {
-  width: 100%;
-  border-radius: 8px;
+  display: flex;
+  border-radius: 8px 1px 1px 8px;
   padding: 6px 10px;
   color: rgb(182, 137, 115);
   border: 1px solid #ddd;
+  flex-grow: 2;
+}
+
+.Dictionary button {
+  border-radius: 1px 8px 8px 1px;
+  border-color: rgba(157, 157, 157, 0.5);
 }
 
 .Dictionary .hint {
