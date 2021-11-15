@@ -32,7 +32,6 @@ export default function App() {
         </div>
         <footer className="App-footer">
           <small>
-            {" "}
             This project was coded by{" "}
             <a
               href="https://inspiring-noyce-9d41a5.netlify.app"
