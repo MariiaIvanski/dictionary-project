@@ -1,4 +1,5 @@
 import logo from "./logo.png";
+import cog from "./cog.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -9,11 +10,26 @@ export default function App() {
         <header>
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
-        <h1>Dictionary</h1>
-        <main>
-          <Dictionary defaultKeyword="steam" />
-        </main>
-
+        <div className="row">
+          <div className="col">
+            <img
+              src={cog}
+              className="cog-image-minor img-fluid mb-2"
+              alt="cog"
+            />
+            <img src={cog} className="cog-image img-fluid" alt="cog" />
+          </div>
+          <div className="col dictionaryApp">
+            <h1>Dictionary</h1>
+            <main>
+              <Dictionary defaultKeyword="steam" />
+            </main>
+          </div>
+          <div className="col">
+            <img src={cog} className="cog-image img-fluid  mb-2" alt="cog" />
+            <img src={cog} className="cog-image-minor img-fluid" alt="cog" />
+          </div>
+        </div>
         <footer className="App-footer">
           <small>
             {" "}

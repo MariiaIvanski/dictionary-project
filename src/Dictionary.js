@@ -47,7 +47,7 @@ export default function Dictionary(props) {
               type="submit"
               onClick={handleSubmit}
             >
-              <i class="fas fa-search"></i>
+              <i className="fas fa-search"></i>
             </button>
           </form>
           <div className="hint">
