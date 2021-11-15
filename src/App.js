@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
+        <header>
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <h1>Dictionary</h1>
@@ -35,7 +35,7 @@ export default function App() {
             </a>
           </small>
         </footer>
-        <img src={logo} className="App-logo img-fluid mb-5" alt="logo" />
+        <img src={logo} className="App-logo img-fluid" alt="logo" />
       </div>
     </div>
   );

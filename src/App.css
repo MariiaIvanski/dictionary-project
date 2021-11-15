@@ -1,23 +1,31 @@
 .App {
-  max-width: 800px;
-  margin: 0 auto;
+  background-image: linear-gradient(
+    to right,
+    #deba9d,
+    #deba9d 10px,
+    #f5e8c7 10px,
+    #f5e8c7
+  );
+  background-size: 20px 100%;
 }
 
 .App h1 {
   text-align: center;
-}
-
-.App-header {
-  margin: 30px 0;
+  color: #5d4633;
 }
 
 .App-logo {
   max-width: 700px;
   display: block;
   margin: 0 auto;
+  padding: 30px 0;
 }
 
 .App-footer {
   text-align: center;
   margin: 30px 0;
+}
+
+.App-footer a {
+  text-decoration: none;
 }

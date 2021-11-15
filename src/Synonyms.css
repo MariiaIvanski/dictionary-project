@@ -6,6 +6,7 @@
 .Synonyms li {
   font-size: 14px;
   border: 1px solid #eabf9f;
+  background: rgb(250, 243, 224);
   border-radius: 25px;
   display: inline-block;
   padding: 5px 10px;
