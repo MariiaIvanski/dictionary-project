@@ -11,7 +11,7 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <div className="row">
-          <div className="col">
+          <div className="col d-flex justify-content-center align-items-start">
             <img
               src={cog}
               className="cog-image-minor img-fluid mb-2"
@@ -25,7 +25,7 @@ export default function App() {
               <Dictionary defaultKeyword="steam" />
             </main>
           </div>
-          <div className="col">
+          <div className="col d-flex justify-content-center align-items-start">
             <img src={cog} className="cog-image img-fluid  mb-2" alt="cog" />
             <img src={cog} className="cog-image-minor img-fluid" alt="cog" />
           </div>
