@@ -62,13 +62,13 @@
 
 @media (max-width: 900px) {
   .App .cog-image {
-    max-width: 50px;
-    margin: 10px -2px;
+    max-width: 45px;
+    margin-bottom: -11px;
   }
 
   .App .cog-image-minor {
-    max-width: 45px;
-    margin: 30px -6px;
+    max-width: 40px;
+    margin: -6px;
   }
 
   .App h1 {
@@ -78,5 +78,9 @@
   .App-logo {
     width: 80%;
     padding: 10px;
+  }
+
+  .App footer .App-footer {
+    margin-top: 10px;
   }
 }
