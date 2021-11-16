@@ -14,6 +14,7 @@ export default function Photos(props) {
                     src={photo.src.tiny}
                     key={index}
                     className="img-fluid"
+                    title="open"
                     alt="illustaration"
                   />
                 </a>

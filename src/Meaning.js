@@ -14,12 +14,9 @@ export default function Meaning(props) {
               <i className="far fa-hand-point-right m-1"></i>
               {definition.definition}
             </div>
-            <br />
             <div className="example">
               <Example example={definition.example} />
             </div>
-
-            <br />
             <div className="synonyms">
               <Synonyms synonyms={definition.synonyms} />
             </div>

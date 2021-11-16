@@ -14,3 +14,15 @@
   color: #b68973;
   font-size: 18px;
 }
+
+.Meaning .definition {
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .Meaning .definition {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+}
